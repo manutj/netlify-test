@@ -13,7 +13,7 @@ class Pokemones extends Component {
              //res=>console.log(res.data.results)
                res=>{
                   const pokemones=res.data.results
-                  pokemones.forEach(pokemon=>{
+                  pokemones.map(pokemon=>{
                        //console.log(pokemon.name, pokemon.url)
                        axios.get(pokemon.url)
                         .then(
