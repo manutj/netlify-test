@@ -35,7 +35,7 @@ class Pokemones extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <div>lista de pokemones</div>
+                <div>LISTA DE POKEMONES</div>
                 {
                     this.state.pokemones.map(pokemon=>{
                         return <Pokemon name={pokemon.name} img={pokemon.sprites.front_default}></Pokemon>
