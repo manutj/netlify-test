@@ -35,7 +35,7 @@ class Pokemones extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <div>LISTA DE POKEMONES</div>
+                <div>LISTA DE POKEMONES CON NETLIFY</div>
                 {
                     this.state.pokemones.map(pokemon=>{
                         return <Pokemon name={pokemon.name} img={pokemon.sprites.front_default}></Pokemon>
